@@ -1,3 +1,4 @@
+using DotNetSkeleton.Entities;
 using Microsoft.EntityFrameworkCore;
 
 namespace DotNetSkeleton.Shared.Persistence;
@@ -8,4 +9,6 @@ public class AppDbContext : DbContext
     {
         
     }
+
+    public DbSet<Example> Examples { get; set; }
 }

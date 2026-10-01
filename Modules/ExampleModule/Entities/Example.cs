@@ -1,4 +1,4 @@
-namespace DotNetSkeleton.Entities;
+namespace DotNetSkeleton.Modules.ExampleModule.Entities;
 
 public class Example
 {
